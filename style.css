@@ -4,3 +4,104 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/susulwin.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color:aqua;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: rgb(192, 108, 13);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a :hover{
+    color: aquamarine;
+    transition: .4s;
+}
+.btn{
+    background-color: #f900f9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn :hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translate(-50);
+}
+h5{
+    Color: pink;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color: pink;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-top: 45px;
+}
+.Newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.Newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid  #f900f9;
+    outline: none;
+    border-radius: 30px;
+}
+.Newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f900f9;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
